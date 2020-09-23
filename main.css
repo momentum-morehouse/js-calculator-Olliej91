@@ -1,1 +1,28 @@
+#calculator {
 
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+    margin: 20px;
+}
+.calculator-keys{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: blue;
+    width: 80%;
+    height: 100%;
+}
+.cal-key{
+    background-color: crimson;
+    width: 24%;
+    height: 24%;
+}
+#top{
+    display: flex;
+    width: 80%;
+    background-color: purple;
+}
